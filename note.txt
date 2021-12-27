@@ -1,0 +1,2 @@
+//use node 16.13.1
+// demo build js scss with nodejs webpack 
