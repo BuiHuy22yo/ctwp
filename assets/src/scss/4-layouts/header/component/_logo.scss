@@ -1,25 +1,3 @@
-#page {
-	overflow: auto;
-}
-
-.cct-site-logo {
-	a {
-		display: block;
-	}
-}
-
-.header-main-logo {
-
-}
-
-.cct-inner {
-	@media (max-width: 991.98px) {
-		position: relative;
-	}
-
-	.col-xl-2 {
-		@media (max-width: 991.98px) {
-			position: unset;
-		}
-	}
+.logo {
+	width: 200px;
 }
