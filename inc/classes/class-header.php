@@ -43,13 +43,18 @@ class Header {
 		echo '</header>';
 	}
 
-	public function header_main() {
-		 get_template_part('template-parts/header/logo');
-		 get_template_part('template-parts/header/nav');
-		get_template_part('template-parts/header/currency');
-		get_template_part('template-parts/header/mult_languages');
-		get_template_part('template-parts/header/cart');
-		get_template_part('template-parts/header/toggle');
+	public function header_main() {?>
+        <div class="header_main_left"><?php get_template_part('template-parts/header/logo'); ?></div>
+        <div class="header_main_center"><?php get_template_part('template-parts/header/nav'); ?></div>
+        <div class="header_main_right">
+            <?php
+            get_template_part('template-parts/header/currency');
+            get_template_part('template-parts/header/mult_languages');
+            get_template_part('template-parts/header/cart');
+            get_template_part('template-parts/header/toggle');
+            ?>
+        </div>
+        <?php
 	}
 
 	private function generate_class_header() {

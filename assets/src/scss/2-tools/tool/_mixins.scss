@@ -9,3 +9,18 @@
 @mixin box-shadow($shadow) {
   box-shadow: $shadow;
 }
+
+@mixin textAlign($position) {
+  text-align: $position;
+}
+
+@mixin resetList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin fontBase($size, $lh) {
+  font-size: $size;
+  line-height: $lh;
+}

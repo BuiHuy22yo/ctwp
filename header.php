@@ -14,7 +14,7 @@
     <?php wp_head() ?>
 
 </head>
-<body <?php body_class() ?>>
+<body <?php body_class('theme_custom') ?>>
     <?php
         do_action('before_header');
 
